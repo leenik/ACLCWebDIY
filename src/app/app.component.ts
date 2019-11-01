@@ -12,7 +12,7 @@ export class AppComponent implements AfterViewInit {
   ngAfterViewInit() {
 
     this.editor.getEditor().setOptions({
-      showLineNumbers: true,
+      showLineNumbers: false,
       tabSize: 2
     });
 
